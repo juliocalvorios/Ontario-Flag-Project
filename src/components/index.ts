@@ -1,3 +1,5 @@
 export { VintageSwitch } from './VintageSwitch'
 export { YearLever } from './YearLever'
-export { OntarioFlag } from './OntarioFlag'
+export { OntarioFlag, getFlagForYear } from './OntarioFlag'
+export type { FlagInfo } from './OntarioFlag'
+export { DownloadButton } from './DownloadButton'
