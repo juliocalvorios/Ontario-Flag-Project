@@ -796,3 +796,4 @@ function ClockworkLever({ trackRef, currentYear, yearToPercent, isDragging, hand
     </div>
   )
 }
+// TODO: add mobile touch support
