@@ -179,7 +179,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
       <img
         src={flag.src}
         alt={flag.alt}
-        className="w-full h-auto transition-all duration-500"
+        className="w-full h-auto transition-all duration-300"
         style={{
           display: 'block',
           filter: combinedFilter
@@ -189,7 +189,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
       {/* Overlay to hide Union Jack (works from 1868+) */}
       {canToggleElements && !unionJack.visible && (
         <div
-          className="absolute top-0 left-0 w-1/2 h-1/2 transition-opacity duration-500"
+          className="absolute top-0 left-0 w-1/2 h-1/2 transition-opacity duration-300"
           style={{
             backgroundColor: overlayColor,
             filter: combinedFilter
@@ -200,7 +200,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
       {/* Overlay to hide Shield (works from 1868+) */}
       {canToggleElements && !shield.visible && (
         <div
-          className="absolute transition-opacity duration-500"
+          className="absolute transition-opacity duration-300"
           style={{
             backgroundColor: overlayColor,
             filter: combinedFilter,
