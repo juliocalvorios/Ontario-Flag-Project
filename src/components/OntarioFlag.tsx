@@ -254,7 +254,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
 
       {/* Flag era badge (only when not showing warning) */}
       {!flag.isPreOntario && (
-        <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-[10px] text-white/80 font-mono tracking-wider">
+        <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-[10px] text-white/80 font-mono tracking-wide">
           {flag.era}
         </div>
       )}
