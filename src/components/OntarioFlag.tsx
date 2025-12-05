@@ -234,7 +234,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
 
       {/* Pre-Ontario warning banner */}
       {flag.isPreOntario && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/70 backdrop-blur-sm">
           <div className="max-w-md mx-4 p-6 bg-gradient-to-b from-[#2a2520] to-[#1a1510] border border-[#c9a86c]/30 rounded-sm shadow-2xl">
             <div className="flex items-center gap-3 mb-3">
               <span className="text-2xl text-[#c9a86c] font-serif font-bold">!</span>
@@ -254,7 +254,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
 
       {/* Flag era badge (only when not showing warning) */}
       {!flag.isPreOntario && (
-        <div className="absolute bottom-2 right-2 bg-black/60 backdrop-blur-sm px-3 py-1.5 rounded text-[10px] text-white/80 font-mono tracking-wider">
+        <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-[10px] text-white/80 font-mono tracking-wider">
           {flag.era}
         </div>
       )}
