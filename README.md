@@ -11,3 +11,10 @@ interactive visualization of ontario's flag through history
 
 ## tech stack
 next.js, tailwind, typescript
+
+
+## how to run
+```bash
+npm install
+npm run dev
+```
