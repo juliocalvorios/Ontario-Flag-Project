@@ -244,7 +244,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
               {flag.description}
             </p>
             <div className="mt-4 pt-3 border-t border-[#3a3530]">
-              <p className="text-xs tracking-[0.1em] text-[#b5a5a0] font-mono font-medium">
+              <p className="text-[10px] tracking-[0.1em] text-[#b5a5a0] font-mono font-medium">
                 Move the lever to 1868 or later to see the flag history
               </p>
             </div>
@@ -254,7 +254,7 @@ export function OntarioFlag({ config, palette, className = '', year }: OntarioFl
 
       {/* Flag era badge (only when not showing warning) */}
       {!flag.isPreOntario && (
-        <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-xs text-white/80 font-mono tracking-wide">
+        <div className="absolute bottom-2 right-2 bg-black/70 backdrop-blur-sm px-3 py-1.5 rounded text-[10px] text-white/80 font-mono tracking-wide">
           {flag.era}
         </div>
       )}
