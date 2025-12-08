@@ -211,4 +211,3 @@ export function DownloadButton({ flagSrc, year, era }: DownloadButtonProps) {
     </div>
   )
 }
-console.log('debug download')
