@@ -17,13 +17,13 @@ import { FLAG_CONFIGS, COLOR_PALETTES } from '@/data/history'
 import { toYear } from '@/types'
 
 // =============================================================================
-// Tests para la función getFlagForYear
-// Esta es una "función pura": dado el mismo input, siempre devuelve el mismo output
-// Las funciones puras son MUY fáciles de testear
+// tests for getFlagForYear function
+// pure function - same input always gives same output
+// pure functions are easy to test
 // =============================================================================
 
 describe('getFlagForYear', () => {
-  // Testeamos cada período histórico
+  // test each historical period
 
   describe('Pre-1791 (Before Upper Canada)', () => {
     it('should return Union Jack for year 1763', () => {
@@ -144,7 +144,7 @@ describe('getFlagForYear', () => {
     })
   })
 
-  // Test de boundaries (límites) - muy importante!
+  // boundary tests
   // Los bugs suelen ocurrir en los límites entre períodos
   describe('boundary years (edge cases)', () => {
     it('should handle year 1790 → 1791 transition', () => {
